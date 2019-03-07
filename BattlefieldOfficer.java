@@ -21,6 +21,8 @@ public class BattlefieldOfficer {
             System.out.println("  \t Initial Rank: [" + soldier.getInitailRank() + "]");
             System.out.println("  \t Final Rank: [" + soldier.getFinalRank() + "]");
             System.out.println("\n*********************************");
+            System.out.println("\ntaghir dadaaaam :))))");
+
             if (soldier.getFinalRank() == 1) {
                 count++;
             }
@@ -28,6 +30,7 @@ public class BattlefieldOfficer {
         this.testResult = (count * 100) / 15;
         System.out.println("********** Test Result **********");
         System.out.println(this.testResult + "% \n");
+        System.out.println("yani bzanam tu saret");
     }
    public int getTestResult() {
         return this.testResult;
